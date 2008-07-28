@@ -13,6 +13,9 @@
         <customNs />
       </configuration>
     </facet>
+    <facet type="Groovy" name="Groovy">
+      <configuration />
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -31,6 +34,7 @@
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
     </content>
     <orderEntry type="library" name="grails-1.0.3" level="application" />
+    <orderEntry type="library" name="groovy-1.5.6" level="application" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
