@@ -7,5 +7,4 @@ class Ticket {
     String title
     Flow flow
     Long state // the state in the flow
-    
 }
