@@ -10,7 +10,6 @@
           <option name="enableValidation" value="false" />
           <option name="reportErrorsAsWarnings" value="true" />
         </options>
-        <customNs />
       </configuration>
     </facet>
     <facet type="Groovy" name="Groovy">
@@ -47,7 +46,6 @@
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntryProperties />
   </component>
 </module>
 
