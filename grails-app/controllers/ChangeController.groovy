@@ -1,3 +1,4 @@
+// this is a comment from toni
 class ChangeController {
     
     def index = { redirect(action:list,params:params) }
