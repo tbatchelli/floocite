@@ -1,10 +1,9 @@
 class Ticket {
     static hasMany = [changes:Change]
-    long id
     User owner
     User reportedBy
     String description
     String title
+ // the state in the flow
     Flow flow
-    Long state // the state in the flow
 }

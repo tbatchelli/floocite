@@ -6,20 +6,16 @@
     </facet>
     <facet type="Spring" name="Spring">
       <configuration>
-        <options>
-          <option name="enableValidation" value="false" />
-          <option name="reportErrorsAsWarnings" value="true" />
-        </options>
+        <fileset id="fileset1" name="My Fileset" removed="false">
+          <file>file://$MODULE_DIR$/web-app/WEB-INF/applicationContext.xml</file>
+          <file>jar://$MODULE_DIR$/../../swjava/grails-1.0.3/lib/spring-2.5.4.jar!/org/springframework/jdbc/support/sql-error-codes.xml</file>
+        </fileset>
       </configuration>
-    </facet>
-    <facet type="Groovy" name="Groovy">
-      <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/web-app/WEB-INF/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/grails-app/conf" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/conf/hibernate" isTestSource="false" />
@@ -35,6 +31,8 @@
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
+    <orderEntry type="library" name="groovy-1.5.6" level="application" />
+    <orderEntry type="library" name="grails-1.0.3" level="application" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

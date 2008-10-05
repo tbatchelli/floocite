@@ -1,0 +1,4 @@
+class FlowState {
+    String description
+
+}

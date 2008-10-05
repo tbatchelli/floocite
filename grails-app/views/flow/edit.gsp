@@ -28,6 +28,24 @@
                     <table>
                         <tbody>
                         
+                            <tr class="prop">
+                                <td valign="top" class="name">
+                                    <label for="definition">Definition:</label>
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean:flow,field:'definition','errors')}">
+                                    <g:select optionKey="id" from="${FlowDefinition.list()}" name="definition.id" value="${flow?.definition?.id}" ></g:select>
+                                </td>
+                            </tr> 
+                        
+                            <tr class="prop">
+                                <td valign="top" class="name">
+                                    <label for="flowState">Flow State:</label>
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean:flow,field:'flowState','errors')}">
+                                    <g:select optionKey="id" from="${FlowState.list()}" name="flowState.id" value="${flow?.flowState?.id}" ></g:select>
+                                </td>
+                            </tr> 
+                        
                         </tbody>
                     </table>
                 </div>
