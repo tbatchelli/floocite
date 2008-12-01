@@ -15,7 +15,7 @@ class BootStrap {
     su.addToPeople(admin)
     new Requestmap(url: "/", configAttribute: "IS_AUTHENTICATED_ANONYMOUSLY").save()
     new Requestmap(url: "/login/**", configAttribute: "IS_AUTHENTICATED_ANONYMOUSLY").save()
-    new Requestmap(url: "/**", configAttribute: "IS_AUTHENTICATED_FULLY").save()
+    new Requestmap(url: "/**", configAttribute: "IS_AUTHENTICATED_REMEMBERED").save()
   }
   def destroy = {
   }

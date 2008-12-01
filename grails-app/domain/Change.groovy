@@ -1,5 +1,5 @@
 class Change {
-    static belongsTo=[ticket:Ticket]
+//    static belongsTo=[ticket:Ticket]
     Date date
     long sequence
 }

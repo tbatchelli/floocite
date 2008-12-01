@@ -25,13 +25,9 @@
                         
                    	        <g:sortableColumn property="description" title="Description" />
                         
-                   	        <th>Flow</th>
-                   	    
-                   	        <th>Owner</th>
-                   	    
-                   	        <th>Reported By</th>
-                   	    
-                   	        <g:sortableColumn property="state" title="State" />
+                   	        <g:sortableColumn property="reportedBy" title="Reported By" />
+                        
+                   	        <g:sortableColumn property="title" title="Title" />
                         
                         </tr>
                     </thead>
@@ -43,13 +39,9 @@
                         
                             <td>${fieldValue(bean:ticket, field:'description')}</td>
                         
-                            <td>${fieldValue(bean:ticket, field:'flow')}</td>
-                        
-                            <td>${fieldValue(bean:ticket, field:'owner')}</td>
-                        
                             <td>${fieldValue(bean:ticket, field:'reportedBy')}</td>
                         
-                            <td>${fieldValue(bean:ticket, field:'state')}</td>
+                            <td>${fieldValue(bean:ticket, field:'title')}</td>
                         
                         </tr>
                     </g:each>

@@ -43,13 +43,6 @@
                             
                         </tr>
                     
-                        <tr class="prop">
-                            <td valign="top" class="name">Ticket:</td>
-                            
-                            <td valign="top" class="value"><g:link controller="ticket" action="show" id="${change?.ticket?.id}">${change?.ticket?.encodeAsHTML()}</g:link></td>
-                            
-                        </tr>
-                    
                     </tbody>
                 </table>
             </div>

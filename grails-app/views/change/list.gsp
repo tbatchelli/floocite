@@ -27,8 +27,6 @@
                         
                    	        <g:sortableColumn property="sequence" title="Sequence" />
                         
-                   	        <th>Ticket</th>
-                   	    
                         </tr>
                     </thead>
                     <tbody>
@@ -40,8 +38,6 @@
                             <td>${fieldValue(bean:change, field:'date')}</td>
                         
                             <td>${fieldValue(bean:change, field:'sequence')}</td>
-                        
-                            <td>${fieldValue(bean:change, field:'ticket')}</td>
                         
                         </tr>
                     </g:each>

@@ -1161,6 +1161,14 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/acegi-0.3/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/acegi-0.3/test/integration" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/acegi-0.3/test/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bubbling-1.5.0/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bubbling-1.5.0/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/grails-ui-1.0.2-SNAPSHOT/grails-app/conf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/grails-ui-1.0.2-SNAPSHOT/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/grails-ui-1.0.2-SNAPSHOT/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/grails-ui-1.0.2-SNAPSHOT/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/yui-2.6.0/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/yui-2.6.0/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
@@ -1174,10 +1182,12 @@
       <library name="Grails User Library">
         <CLASSES>
           <root url="file://$MODULE_DIR$/plugins/acegi-0.3/lib" />
+          <root url="file://$MODULE_DIR$/plugins/grails-ui-1.0.2-SNAPSHOT/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/plugins/acegi-0.3/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/plugins/grails-ui-1.0.2-SNAPSHOT/lib" recursive="false" />
       </library>
     </orderEntry>
   </component>

@@ -30,22 +30,6 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="changes">Changes:</label>
-                                </td>
-                                <td valign="top" class="value ${hasErrors(bean:ticket,field:'changes','errors')}">
-                                    
-<ul>
-<g:each var="c" in="${ticket?.changes?}">
-    <li><g:link controller="change" action="show" id="${c.id}">${c?.encodeAsHTML()}</g:link></li>
-</g:each>
-</ul>
-<g:link controller="change" params="['ticket.id':ticket?.id]" action="create">Add Change</g:link>
-
-                                </td>
-                            </tr> 
-                        
-                            <tr class="prop">
-                                <td valign="top" class="name">
                                     <label for="description">Description:</label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean:ticket,field:'description','errors')}">
@@ -53,42 +37,8 @@
                                 </td>
                             </tr> 
                         
-                            <tr class="prop">
-                                <td valign="top" class="name">
-                                    <label for="flow">Flow:</label>
-                                </td>
-                                <td valign="top" class="value ${hasErrors(bean:ticket,field:'flow','errors')}">
-                                    <g:select optionKey="id" from="${FlowDefinition.list()}" name="flow.id" value="${ticket?.flow?.id}" ></g:select>
-                                </td>
-                            </tr> 
-                        
-                            <tr class="prop">
-                                <td valign="top" class="name">
-                                    <label for="owner">Owner:</label>
-                                </td>
-                                <td valign="top" class="value ${hasErrors(bean:ticket,field:'owner','errors')}">
-                                    <g:select optionKey="id" from="${User.list()}" name="owner.id" value="${ticket?.owner?.id}" ></g:select>
-                                </td>
-                            </tr> 
-                        
-                            <tr class="prop">
-                                <td valign="top" class="name">
-                                    <label for="reportedBy">Reported By:</label>
-                                </td>
-                                <td valign="top" class="value ${hasErrors(bean:ticket,field:'reportedBy','errors')}">
-                                    <g:select optionKey="id" from="${User.list()}" name="reportedBy.id" value="${ticket?.reportedBy?.id}" ></g:select>
-                                </td>
-                            </tr> 
-                        
-                            <tr class="prop">
-                                <td valign="top" class="name">
-                                    <label for="state">State:</label>
-                                </td>
-                                <td valign="top" class="value ${hasErrors(bean:ticket,field:'state','errors')}">
-                                    <input type="text" id="state" name="state" value="${fieldValue(bean:ticket,field:'state')}" />
-                                </td>
-                            </tr> 
-                        
+                                    <input type="hidden" id="reportedBy" name="reportedBy" value="${fieldValue(bean:ticket,field:'reportedBy')}"/>
+
                             <tr class="prop">
                                 <td valign="top" class="name">
                                     <label for="title">Title:</label>

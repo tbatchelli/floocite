@@ -44,15 +44,6 @@
                                 </td>
                             </tr> 
                         
-                            <tr class="prop">
-                                <td valign="top" class="name">
-                                    <label for="ticket">Ticket:</label>
-                                </td>
-                                <td valign="top" class="value ${hasErrors(bean:change,field:'ticket','errors')}">
-                                    <g:select optionKey="id" from="${Ticket.list()}" name="ticket.id" value="${change?.ticket?.id}" ></g:select>
-                                </td>
-                            </tr> 
-                        
                         </tbody>
                     </table>
                 </div>
