@@ -265,3 +265,74 @@ th.desc a {
     background: transparent url(../images/skin/database_save.png) 5px 50% no-repeat;
     padding-left: 28px;
 }
+
+/* Customized */
+
+#footer {
+    clear: both;
+    text-align: center;
+    padding: 3px;
+    border-top: 1px solid #333;
+}
+
+#topbar {
+    text-align: left;
+    width: 778px;
+    margin: 0px auto;
+    padding: 5px 0;
+}
+
+#topbar #menu {
+    float: right;
+    width:  240px;
+    text-align: right;
+    font-size: 10px;
+}
+
+#header{
+    withd: 778px;
+//    background: #FFFFFF url(../images/header_background.gif) repeat-x;
+    background: #3333ff;
+    height: 70px;
+    margin: 0px auto;
+}
+
+#header h1 {
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 20px 0 0 6px;
+    font-size: 1.6em;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-varian: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: normal;
+    font-size-adjust: none;
+    font-stretch: normal;
+    color: #333333;
+}
+#page{
+    width: 778px;
+    margin: 0px auto;
+    padding: 4px 0;
+    text-align: left;
+}
+
+#content{
+    float: left;
+    width: 560px;
+    color: #000;
+}
+
+#sidebar{
+    float: right;
+    width: 200px;
+    color: #000;
+    padding: 3px;

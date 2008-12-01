@@ -28,5 +28,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
   <properties>
     <grailsVersion>1.0.3</grailsVersion>
     <grailsHome>/Users/tbatchelli/swjava/grails-1.0.3</grailsHome>
+    <env>-Dserver.port=9090</env>
   </properties>
 </project>

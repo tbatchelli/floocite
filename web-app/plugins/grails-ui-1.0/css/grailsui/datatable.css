@@ -1,0 +1,7 @@
+.yui-skin-sam .yui-dt-liner { white-space:nowrap; }
+/* The original table row clicked on */
+tr.ymod-expanded {}
+/* Row containing the expanded content */
+tr.ymod-expandedData {}
+/* Div containing the expanded content inside the row */
+tr.ymod-expandedData div.ymod-expandedDataContent { background-color: navy; padding: 2px 6px; }
