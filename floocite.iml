@@ -3,6 +3,9 @@
   <component name="FacetManager">
     <facet type="Grails" name="Grails">
       <configuration />
+      <facet type="Gant_Grails" name="Gant for Grails">
+        <configuration />
+      </facet>
     </facet>
     <facet type="Spring" name="Spring">
       <configuration>
@@ -61,11 +64,20 @@
             </GrailsPlugin>
           </value>
         </entry>
+        <entry key="auto-delegator">
+          <value>
+            <GrailsPlugin>
+              <option name="name" value="auto-delegator" />
+              <option name="release" value="0.1" />
+              <option name="title" value="This plugin automatically does delegation" />
+            </GrailsPlugin>
+          </value>
+        </entry>
         <entry key="autobase">
           <value>
             <GrailsPlugin>
               <option name="name" value="autobase" />
-              <option name="release" value="0.3" />
+              <option name="release" value="0.6" />
               <option name="title" value="Automate your database work as much as possible" />
             </GrailsPlugin>
           </value>
@@ -385,6 +397,15 @@
             </GrailsPlugin>
           </value>
         </entry>
+        <entry key="flash-player">
+          <value>
+            <GrailsPlugin>
+              <option name="name" value="flash-player" />
+              <option name="release" value="1.0" />
+              <option name="title" value="Grails TagLib plugin for the JW FLV Media Player" />
+            </GrailsPlugin>
+          </value>
+        </entry>
         <entry key="flex">
           <value>
             <GrailsPlugin>
@@ -631,7 +652,7 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="laszlo" />
-              <option name="release" value="0.6.4" />
+              <option name="release" value="0.6.5" />
               <option name="title" value="OpenLaszlo plugin for Grails" />
             </GrailsPlugin>
           </value>
@@ -847,7 +868,7 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="recaptcha" />
-              <option name="release" value="0.3" />
+              <option name="release" value="0.3.1" />
               <option name="title" value="This plugin adds ReCaptcha support to Grails." />
             </GrailsPlugin>
           </value>
@@ -991,7 +1012,7 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="stark-security" />
-              <option name="release" value="0.1" />
+              <option name="release" value="0.2.1" />
               <option name="title" value="A simple yet robust implementation of Spring Security for Grails" />
             </GrailsPlugin>
           </value>
@@ -1045,8 +1066,17 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="testing" />
-              <option name="release" value="0.3" />
+              <option name="release" value="0.4" />
               <option name="title" value="Unit testing plugin" />
+            </GrailsPlugin>
+          </value>
+        </entry>
+        <entry key="triggers">
+          <value>
+            <GrailsPlugin>
+              <option name="name" value="triggers" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -1115,31 +1145,7 @@
         </entry>
       </map>
     </option>
-    <option name="fullPluginsInfo">
-      <map>
-        <entry key="acegi">
-          <value>
-            <GrailsPlugin>
-              <option name="author" value="Tsuyoshi Yamamoto" />
-              <option name="description" value="Plugin to use Grails domain class and secure your applications with Spring Security filters." />
-              <option name="email" value="tyama@xmldo.jp" />
-              <option name="name" value="acegi" />
-              <option name="release" value="0.3" />
-              <option name="title" value="Name: acegi&#9;| Latest release: 0.3" />
-              <option name="url" value="http://grails.org/AcegiSecurity+Plugin" />
-              <option name="versions">
-                <set>
-                  <option value="0.2" />
-                  <option value="0.2.1" />
-                  <option value="0.3" />
-                  <option value="0.3.1-20080621-SNAPSHOT" />
-                </set>
-              </option>
-            </GrailsPlugin>
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="fullPluginsInfo" />
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/web-app/WEB-INF/classes" />
@@ -1176,6 +1182,7 @@
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="library" name="grails-1.0.3" level="application" />
+    <orderEntry type="library" name="gant-1.4.0" level="project" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

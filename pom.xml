@@ -5,7 +5,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
   <artifactId>floocite</artifactId>
   <packaging>grails-app</packaging>
   <name>floocite</name>
-  <version>0.1</version>
+  <version>0.1-SNAPSHOT</version>
   <build>
     <outputDirectory>web-app/WEB-INF/classes</outputDirectory>
     <pluginManagement />
@@ -30,4 +30,18 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
     <grailsHome>/Users/tbatchelli/swjava/grails-1.0.3</grailsHome>
     <env>-Dserver.port=9090</env>
   </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Internal Releases</name>
+            <url>http://localhost:8080/nexus-1.1.1/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Internal Snapshots</name>
+            <url>http://localhost:8080/nexus-1.1.1/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>

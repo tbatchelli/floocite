@@ -1,0 +1,15 @@
+target(a: 'Target A') {
+	depends(b)
+    depends(c)
+	println('Target A')
+	}
+
+target(b: 'Target B') {
+	println('Target B')
+	}
+
+target(c: 'Target C'){
+    println("this is target c")
+}
+
+setDefaultTarget(a)

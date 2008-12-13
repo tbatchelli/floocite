@@ -63,6 +63,166 @@
       <entry name="?*.tld" />
     </wildcardResourcePatterns>
   </component>
+  <component name="CopyrightManager" default="tbatchelli.org">
+    <copyright>
+      <option name="myOptions">
+        <value>
+          <LanguageOptions name="HTML">
+            <option name="templateOptions">
+              <value>
+                <option name="block" value="true" />
+                <option name="separateBefore" value="false" />
+                <option name="separateAfter" value="false" />
+                <option name="prefixLines" value="true" />
+                <option name="lenBefore" value="80" />
+                <option name="lenAfter" value="80" />
+                <option name="box" value="false" />
+                <option name="filler" value=" " />
+              </value>
+            </option>
+            <option name="notice" value="Copyright (c) &amp;#36;today.year, Your Corporation. All Rights Reserved." />
+            <option name="keyword" value="Copyright" />
+            <option name="fileTypeOverride" value="2" />
+            <option name="relativeBefore" value="true" />
+            <option name="addBlankAfter" value="true" />
+            <option name="fileLocation" value="1" />
+            <option name="useAlternate" value="false" />
+          </LanguageOptions>
+          <LanguageOptions name="JAVA">
+            <option name="templateOptions">
+              <value>
+                <option name="block" value="true" />
+                <option name="separateBefore" value="false" />
+                <option name="separateAfter" value="false" />
+                <option name="prefixLines" value="true" />
+                <option name="lenBefore" value="80" />
+                <option name="lenAfter" value="80" />
+                <option name="box" value="false" />
+                <option name="filler" value=" " />
+              </value>
+            </option>
+            <option name="notice" value="Copyright (c) &amp;#36;today.year, Your Corporation. All Rights Reserved." />
+            <option name="keyword" value="Copyright" />
+            <option name="fileTypeOverride" value="2" />
+            <option name="relativeBefore" value="true" />
+            <option name="addBlankAfter" value="true" />
+            <option name="fileLocation" value="1" />
+            <option name="useAlternate" value="false" />
+          </LanguageOptions>
+          <LanguageOptions name="JSP">
+            <option name="templateOptions">
+              <value>
+                <option name="block" value="true" />
+                <option name="separateBefore" value="false" />
+                <option name="separateAfter" value="false" />
+                <option name="prefixLines" value="true" />
+                <option name="lenBefore" value="80" />
+                <option name="lenAfter" value="80" />
+                <option name="box" value="false" />
+                <option name="filler" value=" " />
+              </value>
+            </option>
+            <option name="notice" value="Copyright (c) &amp;#36;today.year, Your Corporation. All Rights Reserved." />
+            <option name="keyword" value="Copyright" />
+            <option name="fileTypeOverride" value="2" />
+            <option name="relativeBefore" value="true" />
+            <option name="addBlankAfter" value="true" />
+            <option name="fileLocation" value="1" />
+            <option name="useAlternate" value="false" />
+          </LanguageOptions>
+          <LanguageOptions name="JavaScript">
+            <option name="templateOptions">
+              <value>
+                <option name="block" value="true" />
+                <option name="separateBefore" value="false" />
+                <option name="separateAfter" value="false" />
+                <option name="prefixLines" value="true" />
+                <option name="lenBefore" value="80" />
+                <option name="lenAfter" value="80" />
+                <option name="box" value="false" />
+                <option name="filler" value=" " />
+              </value>
+            </option>
+            <option name="notice" value="Copyright (c) &amp;#36;today.year, Your Corporation. All Rights Reserved." />
+            <option name="keyword" value="Copyright" />
+            <option name="fileTypeOverride" value="2" />
+            <option name="relativeBefore" value="true" />
+            <option name="addBlankAfter" value="true" />
+            <option name="fileLocation" value="1" />
+            <option name="useAlternate" value="false" />
+          </LanguageOptions>
+          <LanguageOptions name="Properties">
+            <option name="templateOptions">
+              <value>
+                <option name="block" value="true" />
+                <option name="separateBefore" value="false" />
+                <option name="separateAfter" value="false" />
+                <option name="prefixLines" value="true" />
+                <option name="lenBefore" value="80" />
+                <option name="lenAfter" value="80" />
+                <option name="box" value="false" />
+                <option name="filler" value=" " />
+              </value>
+            </option>
+            <option name="notice" value="Copyright (c) &amp;#36;today.year, Your Corporation. All Rights Reserved." />
+            <option name="keyword" value="Copyright" />
+            <option name="fileTypeOverride" value="2" />
+            <option name="relativeBefore" value="true" />
+            <option name="addBlankAfter" value="true" />
+            <option name="fileLocation" value="1" />
+            <option name="useAlternate" value="false" />
+          </LanguageOptions>
+          <LanguageOptions name="XML">
+            <option name="templateOptions">
+              <value>
+                <option name="block" value="true" />
+                <option name="separateBefore" value="false" />
+                <option name="separateAfter" value="false" />
+                <option name="prefixLines" value="true" />
+                <option name="lenBefore" value="80" />
+                <option name="lenAfter" value="80" />
+                <option name="box" value="false" />
+                <option name="filler" value=" " />
+              </value>
+            </option>
+            <option name="notice" value="Copyright (c) &amp;#36;today.year, Your Corporation. All Rights Reserved." />
+            <option name="keyword" value="Copyright" />
+            <option name="fileTypeOverride" value="2" />
+            <option name="relativeBefore" value="true" />
+            <option name="addBlankAfter" value="true" />
+            <option name="fileLocation" value="1" />
+            <option name="useAlternate" value="false" />
+          </LanguageOptions>
+          <LanguageOptions name="__TEMPLATE__">
+            <option name="templateOptions">
+              <value>
+                <option name="block" value="true" />
+                <option name="separateBefore" value="false" />
+                <option name="separateAfter" value="false" />
+                <option name="prefixLines" value="true" />
+                <option name="lenBefore" value="80" />
+                <option name="lenAfter" value="80" />
+                <option name="box" value="false" />
+                <option name="filler" value=" " />
+              </value>
+            </option>
+            <option name="notice" value="Copyright (c) &amp;#36;today.year, Antoni Batchelli. All Rights Reserved." />
+            <option name="keyword" value="Copyright" />
+            <option name="fileTypeOverride" value="4" />
+            <option name="relativeBefore" value="true" />
+            <option name="addBlankAfter" value="true" />
+            <option name="fileLocation" value="1" />
+            <option name="useAlternate" value="false" />
+          </LanguageOptions>
+        </value>
+      </option>
+      <option name="myName" value="tbatchelli.org" />
+      <option name="myLocal" value="true" />
+    </copyright>
+    <module2copyright>
+      <element module="All" copyright="tbatchelli.org" />
+    </module2copyright>
+  </component>
   <component name="DependenciesAnalyzeManager">
     <option name="myForwardDirection" value="false" />
   </component>
@@ -269,6 +429,9 @@
     <option name="projectName" value="floocite" />
   </component>
   <component name="ProjectFileVersion" converted="true" />
+  <component name="ProjectKey">
+    <option name="state" value="project:///Users/tbatchelli/dev/floocite/floocite.ipr" />
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/floocite.iml" filepath="$PROJECT_DIR$/floocite.iml" />
@@ -306,6 +469,17 @@
     <option name="flattenInnerClasses" value="true" />
     <option name="cycleTableSpecificationString" value="" />
     <option name="shortCycleTableSpecificationString" value="" />
+  </component>
+  <component name="libraryTable">
+    <library name="gant-1.4.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../swjava/gant-1.4.0/lib/gant-1.4.0_groovy-1.5.6.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../swjava/gant-1.4.0/lib/ivy-2.0.0-beta2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../swjava/gant-1.4.0/lib/maven-ant-tasks-2.0.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
   <UsedPathMacros>
     <macro name="GRAILS_HOME" />
