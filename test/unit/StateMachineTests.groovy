@@ -7,9 +7,9 @@ public class StateMachineTests extends GroovyTestCase{
     void testMethodMissing(){
         StateMachine state = new StateMachine()
         state.someMethod();
-        state.transitionToC()
-        state.transitionToA()
-        state.transitionToB()
-        state.transitionToEnd()
+        state.onEventMissing1()
+        state.onEventSubmit()
+        state.onEventMissing2()
+        state.onEventFinish()
     }
 }
