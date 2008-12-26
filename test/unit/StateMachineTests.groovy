@@ -2,6 +2,7 @@
  * Copyright 2008 Antoni Batchelli
  * Date: Dec 13, 2008
  */
+import org.tbatchelli.StateMachine
 
 public class StateMachineTests extends GroovyTestCase{
     void testMethodMissing(){
